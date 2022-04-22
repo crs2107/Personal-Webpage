@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+background-image: url(https://thumbs.gfycat.com/BitesizedDesertedBallpython-max-1mb.gif);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #12123b;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #1f0d52;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #090d46;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #0d064e;
+    border: 2px solid #2f083f;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #120641;
+    color: #190d3a;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+.content .title{
+    color: #3030d6;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #0a0b3f;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+img{
+    margin-left: 10%;
+}
